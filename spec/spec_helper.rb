@@ -1,4 +1,5 @@
 require 'serverspec'
+require 'rspec_junit_formatter'
 
 set :backend, :exec
 
