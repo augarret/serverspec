@@ -1,7 +1,6 @@
 #!/bin/bash
 
-source /etc/profile.d/rvm.sh
-rvm use ruby-2.1.2
-bundle install
-
+echo "Starting serverspec testing"
 rake spec
+
+echo "End of serverspec testing"
