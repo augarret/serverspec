@@ -2,6 +2,8 @@
 
 echo "Starting serverspec testing"
 source ~/.bashrc
+
+ruby -v
 #install gem dependcies
 gem install bundler
 bundle install
